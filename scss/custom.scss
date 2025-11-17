@@ -1,0 +1,74 @@
+// Fonts Here
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chocolate+Classical+Sans&family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+// Colours Here
+$primary: #F5BEC3;
+$secondary: #DF9094;
+$success: #BF5573;
+$info: #6C4D4B;
+$light: #FFFEF9;
+$dark: #260D09;
+
+
+// Typography Here
+$font-family-serif: "Bodoni Moda", serif;
+$headings-font-family: "Noto Sans Bengali", sans-serif;
+
+// Other Stuff
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 7
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Regular CSS Below Here
+
+#hero {
+  height: 50vh;
+  background-color: $secondary;
+  background-image: url(../content/images/HeroBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#caro-img {
+  max-height: 400px;
+  max-width: 300px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: $success;
+}
+
+#servs {
+  max-height: 200px;
+}
+
+#socialimg {
+  max-height: 25px;
+}
+
+#footlogo {
+  max-height: 50px;
+}
