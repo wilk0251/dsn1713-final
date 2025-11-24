@@ -6,26 +6,27 @@
   <title>Toronto Cupcake - Home</title>
   <link rel="stylesheet" href="css/custom.css"/>
 </head>
-<body class="">
+<body>
 
 
   <div class="bg-primary">
     <header class="d-flex flex-wrap justify-content-center py-3">
+      
       <a href="home.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto ps-4 link-body-emphasis text-decoration-none" aria-current="true">
-        <img src="content/images/transparent-TO-logo.png" alt="Toronto Cupcake Logo" width="50" height="50">
+        <img src="content/images/transparent-TO-logo.png" alt="Toronto Cupcake Logo" class="img-fluid ms-0" style="max-width: 50px;"> 
       </a>
       
-      <ul class="nav nav-pills pe-4 align-content-center fw-semibold"> 
+      <ul class="nav nav-pills flex-colunm fw-semibold align-items-center"> 
         <li class="nav-item">
-          <a href="products.html" class="nav-link text-dark">Products</a>
+          <a href="products.html" class="nav-link text-dark px-2">Products</a>
         </li>  
         <li class="nav-item">
-          <a href="faq.html" class="nav-link text-dark">FAQs</a>
+          <a href="faq.html" class="nav-link text-dark px-2">FAQs</a>
         </li> 
         <li class="nav-item">
-          <a href="#" class="nav-link text-info" aria-disabled="true">Profile</a>
+          <a href="#" class="nav-link text-info px-2" tabindex="-1" aria-disabled="true">Profile</a>
         </li> 
-        <li class="nav-item bg-success rounded-pill ms-3">
+        <li class="nav-item bg-success rounded-pill ms-2 me-md-4">
           <a href="products.html" class="nav-link text-light">View Full Menu</a>
         </li>
       </ul>
@@ -34,48 +35,50 @@
 
   <main>
     <section id="hero" class="text-dark align-content-center">
-        <div class="row py-5">
-          <div class="col-md-6 offset-1 bg-primary py-5 ps-5 pe-4 rounded-3" style="--bs-bg-opacity: .5";>
-            <h1 class="display-3 fw-normal">Best Cupcakes in Toronto</h1>
-            <p class="h5 pb-4">Handcrafted cupcakes made fresh daily with premium ingredients, bringing joy and sweetness to your moments.</p>
-            <a href="products.html" class="bg-info text-light fw-bold px-4 py-2 rounded-pill text-decoration-none">Order Now!</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 bg-primary py-4 ps-md-5 pe-md-4 rounded-3" style="--bs-bg-opacity: .5">
+              <h1 class="display-3 fw-normal">Best Cupcakes in Toronto</h1>
+              <p class="h5 pb-4">Handcrafted cupcakes made fresh daily with premium ingredients, bringing joy and sweetness to your moments.</p>
+              <a href="products.html" class="bg-info text-light fw-bold px-4 py-2 rounded-pill text-decoration-none">Order Now!</a>
+            </div>
           </div>
         </div>
     </section>
 
-    <section id="your-fav" class="my-5 ms-6">
-      <div class="row justify-content-between me-6">
-        <div class="col-7 align-content-center">
-          <h2>Your Favourite Cupcakes</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim lorem, efficitur id tempor sit amet, aliquam vel neque. Nam laoreet rhoncus eros. Quisque tincidunt tortor ante, sit amet interdum sapien egestas vel. Fusce molestie tristique tortor molestie cursus. </p>
-        </div>
-        <div class="col-3">
-          <div class="container">
-            <div id="myCarousel" 
-             class="carousel slide" 
-             data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div id="caro-img" class="carousel-item active">
-                  <img src="content/images/fav04.png" class="d-block w-100" alt="slide 1">
-                </div>
-                <div id="caro-img" class="carousel-item">
-                  <img src="content/images/fav02.png" class="d-block w-100" alt="slide 2">
-                </div>
-                <div id="caro-img" class="carousel-item">
-                  <img src="content/images/fav01.png" class="d-block w-100" alt="slide 3">
-                </div>
-                <div id="caro-img" class="carousel-item">
-                  <img src="content/images/fav03.png" class="d-block w-100" alt="slide 3">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    <section id="your-fav" class="my-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-7 align-content-center">
+            <h2>Your Favourite Cupcakes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim lorem, efficitur id tempor sit amet, aliquam vel neque. Nam laoreet rhoncus eros. Quisque tincidunt tortor ante, sit amet interdum sapien egestas vel. Fusce molestie tristique tortor molestie cursus. </p>
+          </div>
+          <div class="col-12 col-md-3">
+            <div>
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="caro-img carousel-item active">
+                    <img src="content/images/fav04.png" class="d-block w-100" alt="slide 1">
+                  </div>
+                  <div class="caro-img carousel-item">
+                    <img src="content/images/fav02.png" class="d-block w-100" alt="slide 2">
+                  </div>
+                  <div class="caro-img carousel-item">
+                    <img src="content/images/fav01.png" class="d-block w-100" alt="slide 3">
+                  </div>
+                  <div class="caro-img carousel-item">
+                    <img src="content/images/fav03.png" class="d-block w-100" alt="slide 3">
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
         </div>
       </div>
 
@@ -101,29 +104,54 @@
 
     </section>
 
-    <section id="services" class="bg-primary pb-5"> <!-- Currently using Jay Ay En Kay JANK to get the spacing like not even half correct. Return to this when you next meet Preston. -->
-      <h2 class="text-center pb-2 pt-4">What We Can Do For You</h2>
-      <div class="row mx-6 text-center justify-content-between">
-        <div class="col-4 bg-light pb-4 border border-primary border-5 rounded-4">
-          <img id="servs" src="content/images/cupcake01-serv.png" alt="A Tray of Cupcakes of various flavours">
-            <h3 class="mt-3">Custom Cupcakes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="products.html" class="bg-info text-light fw-bold px-4 py-2 rounded-pill text-decoration-none">Order</a>
+    <section class="bg-primary py-5">
+      <h2 class="text-center pb-2">What We Can Do For You</h2>
+      <div class="container">
+        <div class="row justify-content-between text-center">
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="content/images/cupcake01-serv.png" class="card-img-top" alt="A Tray of Cupcakes of various flavours">
+              <div class="card-body">
+                <h5 class="card-title">Custom Cupcakes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="products.html" class="btn btn-info fw-bold py-2 rounded-pill">Order!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="content/images/cupcake02-serv.png" class="card-img-top" alt="A Tray of Cupcakes of various flavours">
+              <div class="card-body">
+                <h5 class="card-title">Corporate Cupcakes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="products.html" class="btn btn-info fw-bold py-2 rounded-pill">Order!</a>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img src="content/images/cupcake03-serv.png" class="card-img-top" alt="A Tray of Cupcakes of various flavours">
+                <div class="card-body">
+                  <h5 class="card-title">Holiday Cupcakes</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="products.html" class="btn btn-info fw-bold py-2 rounded-pill">Order!</a>
+                </div>
+              </div>
+            </div>
+
         </div>
-        <div class="col-4 bg-light pb-4 border border-primary border-5 rounded-4">
-          <img id="servs" src="content/images/cupcake02-serv.png" alt="A Tray of Cupcakes with varied brand logos">
-            <h3 class="mt-3">Custom Cupcakes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="products.html" class="bg-info text-light fw-bold px-4 py-2 rounded-pill text-decoration-none">Order</a>
-        </div>
-        <div class="col-4 bg-light pb-4 border border-primary border-5 rounded-4">
+      </div>
+    </section>
+
+    <!-- <div class="col-4 bg-light pb-4 border border-primary border-5 rounded-4">
           <img id="servs" src="content/images/cupcake03-serv.png" alt="A Tray of holiday themed Cupcakes">
             <h3 class="mt-3">Custom Cupcakes</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="products.html" class="bg-info text-light fw-bold px-4 py-2 rounded-pill text-decoration-none">Order</a>
-        </div>
-      </div>
-    </section>
+        </div> -->
 
   </main>
 </body>
@@ -163,7 +191,7 @@
     </li> 
   </ul>
   <p class="text-center text-dark">© 2025 Toronto Cupcake | All Rights Reserved</p> 
-  <p class="text-center text-dark"><small>This website is for parody purposes only. please see the real <a href="https://www.torontocupcake.com/index.html">Toronto Cupcake</a> Website for actual use and services.</small></p>
+  <p class="text-center text-dark"><small>This website is for parody purposes only. Please see the real <a href="https://www.torontocupcake.com/index.html">Toronto Cupcake</a> Website for actual use and services.</small></p>
 
 </footer>
 
