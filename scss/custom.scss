@@ -1,6 +1,10 @@
 // Fonts Here
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chocolate+Classical+Sans&family=Noto+Sans+Bengali:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+@import "../node_modules/hover.css/css/hover.css";
+
 // Colours Here
 $primary: #F5BEC3;
 $secondary: #DF9094;
@@ -24,17 +28,8 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   // 6: $spacer * 7
+
 );
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -57,7 +52,7 @@ $spacers: (
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: $success;
+  background-color: $primary;
 }
 
 #servs {
@@ -80,4 +75,14 @@ $spacers: (
 
   max-height: 4.5em;
   overflow: hidden;
+}
+
+#products > div > div > div > div > div > div > .card-img-top {
+  max-height: 200px;
+  max-width: 150px;
+  align-self: center;
+}
+
+#products > div > div > div > div > div > .card {
+  height: 100%;
 }
